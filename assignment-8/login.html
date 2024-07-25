@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link href="home.css" rel="stylesheet">
+    <!-- <link href="./css/sidebar.css" rel="stylesheet"> -->
+    <!-- <link href="../css/contact.css" rel="stylesheet" /> -->
+    <script src="login.js" defer></script>
+  </head>
+  <body>
+      <nav class="nav-bar">
+        <a class="logo" href="#"><span id="span1">F </span>l  o  w  e  r<span>  V  a  l  l  e  y </span></a>
+        <a href="home.html">Home</a>
+        <a href="product.html">Products</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="services.html">Services</a>
+    </nav>
+  
+    <main>
+      <h1>Login</h1>
+      <form class="contact-us-form" action="./dashboard.html" method="get">
+        <div class="input-wrapper">
+          <label for="userName">User Name</label>
+          <input type="text" id="userName" />
+          <span id="inputErrorContainer" class="error-text"></span>
+        </div>
+
+        <div class="input-wrapper">
+          <label for="userPassword">Password</label>
+          <input type="password" id="userPassword" />
+          <span id="passwordErrorContainer" class="error-text"></span>
+        </div>
+
+        <div class="div-btn-wrappper">
+          <input type="submit" value="Login" id="btn" />
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
